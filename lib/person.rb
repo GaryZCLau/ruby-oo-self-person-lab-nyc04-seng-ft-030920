@@ -64,11 +64,11 @@ class Person
     p "♪ another one bites the dust ♫"
   end
   
-  def call_friend(name)
+  def call_friend(f)
     @happiness += 3
     self.happiness = (@happiness)
-    name.happiness += 3
-    p "Hi " + self.name + "! It's " + @name + ". How are you?"
+    f.happiness += 3
+    p "Hi " + @name + "! It's " + f + ". How are you?"
   end
     
 end
