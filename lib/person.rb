@@ -68,7 +68,7 @@ class Person
     @happiness += 3
     self.happiness = (@happiness)
     name.happiness += 3
-    p "Hi " + self.@name + "! It's " + @name + ". How are you?"
+    p "Hi " + self.name + "! It's " + @name + ". How are you?"
   end
     
 end
